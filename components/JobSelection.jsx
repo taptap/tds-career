@@ -6,7 +6,10 @@ export default function JobSelection({ job, allJobs }) {
   const router = useRouter();
 
   const change = (e) => {
-    router.push(`/jobs/${e.target.value}`);
+    router.push(`/?job=${e.target.value}`, null, {
+      scroll: false,
+      shallow: true,
+    });
   };
   return (
     <>

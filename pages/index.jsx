@@ -1,16 +1,19 @@
 import { getAllJobs } from "../lib/jobs";
+import { useRouter } from "next/router";
 import Template from "../components/Template";
 import JobSelection from "../components/JobSelection";
 
 export default function Home({ jobs }) {
-  let selectedJob = null;
-  if (jobs.length > 0) {
-    selectedJob = jobs[0];
+  const router = useRouter();
+  const slug = router.query.job;
+  let job = jobs.find((j) => j.slug === slug);
+  if (!job && jobs.length > 0) {
+    job = jobs[0];
   }
 
   return (
     <Template>
-      <JobSelection job={selectedJob} allJobs={jobs} />
+      <JobSelection job={job} allJobs={jobs} />
     </Template>
   );
 }
