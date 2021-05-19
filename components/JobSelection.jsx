@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
+import Job from "./Job";
 
 export default function JobSelection({ job, allJobs }) {
   const router = useRouter();
@@ -25,7 +26,7 @@ export default function JobSelection({ job, allJobs }) {
           )}
         </select>
       </div>
-      {job && <div className={styles.grid}></div>}
+      {job && <Job job={job} />}
     </>
   );
 }
