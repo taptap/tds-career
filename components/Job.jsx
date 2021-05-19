@@ -12,11 +12,14 @@ export default function Job({ job }) {
             ))}
           </ul>
           {job.bonuses && (
-            <ul>
-              {job.bonuses.map((b, i) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
+            <>
+              <h2>加分项</h2>
+              <ul>
+                {job.bonuses.map((b, i) => (
+                  <li key={i}>{b}</li>
+                ))}
+              </ul>
+            </>
           )}
         </div>
         <div className={styles.card}>

@@ -10,21 +10,17 @@ export default function JobSelection({ job, allJobs }) {
   };
   return (
     <>
-      <div>
-        选择职位：
-        <select onChange={change}>
-          {allJobs.map((j) =>
-            job.slug === j.slug ? (
-              <option key={j.slug} value={j.slug} selected>
-                {j.title}
-              </option>
-            ) : (
+      <div className={styles.jobSelection}>
+        <p>
+          选择职位：
+          <select onChange={change} value={job.slug}>
+            {allJobs.map((j) => (
               <option key={j.slug} value={j.slug}>
                 {j.title}
               </option>
-            )
-          )}
-        </select>
+            ))}
+          </select>
+        </p>
       </div>
       {job && <Job job={job} />}
     </>

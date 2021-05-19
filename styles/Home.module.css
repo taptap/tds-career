@@ -18,6 +18,16 @@
   margin-bottom: 0.5rem;
 }
 
+.main select {
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
+
+.jobSelection {
+  margin: auto;
+  margin-top: 2rem;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -25,6 +35,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  font-weight: light;
 }
 
 .footer {
