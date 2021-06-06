@@ -14,6 +14,11 @@ export default function JobSelection({ job, allJobs }) {
   return (
     <>
       <div className={styles.jobSelection}>
+        <h1>探索你感兴趣的职位</h1>
+        <div>
+          目前我们在招聘以下这些职位，如果其中有适合你的，可提交申请至
+          jobs.leanapp.cn。
+        </div>
         <p>
           选择职位：
           <select onChange={change} value={job.slug}>
