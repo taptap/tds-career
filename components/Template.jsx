@@ -1,6 +1,8 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import Introduction from "./Introduction";
+import Hero from "./Hero";
+import Products from "./Products";
 
 export default function Template({ children }) {
   return (
@@ -12,6 +14,8 @@ export default function Template({ children }) {
       </Head>
 
       <main className={styles.main}>
+        <Hero />
+        <Products />
         <Introduction />
         {children}
       </main>
