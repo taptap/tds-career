@@ -9,7 +9,7 @@ export default function Template({ children }) {
     <div className={styles.container}>
       <Head>
         <title>成为 TDS 的一员</title>
-        <meta name="description" content="TapTap 开发者服务的工作机会" />
+        <meta name="description" content="TapTap 的工作机会" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

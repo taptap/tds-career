@@ -1,9 +1,14 @@
 .heroSection {
-  height: 72rem;
   width: 100%;
-  position: relative;
   color: #ffffff;
   background: #15c5ce;
+}
+
+.contents {
+  max-width: 128rem;
+  height: 72rem;
+  position: relative;
+  margin: 0 auto;
 }
 
 .topNav {
