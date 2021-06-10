@@ -2,6 +2,7 @@
   width: 100%;
   height: 64rem;
   background: linear-gradient(77.13deg, #9cd0f5 4.68%, #5ca1e0 90.65%);
+  color: #ffffff;
 }
 
 .contents {
@@ -31,9 +32,36 @@
   height: 24.628rem;
   width: 51.6rem;
   padding: 0.74rem;
+  margin-right: 7.6rem;
 }
 
 .sausagemanContainer img {
   width: 50.079rem;
   height: 23.128rem;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  height: 3.2rem;
+}
+
+.taptapLogo {
+  width: 8.533rem;
+  height: 3.2rem;
+}
+
+.inactiveTaptapLogo {
+  width: 8.533rem;
+  height: 3.2rem;
+  opacity: 50%;
+}
+
+.tdsTab {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 4.141rem;
 }
