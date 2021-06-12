@@ -1,13 +1,37 @@
 .productsSection {
   width: 100%;
   height: 64rem;
-  background: linear-gradient(77.13deg, #9cd0f5 4.68%, #5ca1e0 90.65%);
   color: #ffffff;
+  position: relative;
+  z-index: -100;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    linear-gradient(102.44deg, #5bd7dd 28.08%, #15c5ce 93.38%);
+}
+
+.tdsBackground {
+  z-index: -99;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(77.13deg, #9cd0f5 4.68%, #5ca1e0 90.65%);
+  opacity: 0;
 }
 
 .contents {
   max-width: 128rem;
   margin: 0 auto;
+}
+
+.taptapUI {
+  position: absolute;
+  width: 46.6rem;
+  height: 40.4rem;
+  bottom: -10.826rem;
 }
 
 .productsSection h1 {
@@ -24,6 +48,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 12.546rem;
+  position: relative;
+  padding-left: 9.6rem;
 }
 
 .sausagemanContainer {
@@ -40,6 +66,11 @@
   height: 23.128rem;
 }
 
+.productsText {
+  display: flex;
+  flex-direction: column;
+}
+
 .tabs {
   display: flex;
   flex-direction: row;
@@ -51,17 +82,45 @@
   height: 3.2rem;
 }
 
-.inactiveTaptapLogo {
-  width: 8.533rem;
-  height: 3.2rem;
-  opacity: 50%;
+.taptapTab {
+  opacity: 100%;
 }
 
 .tdsTab {
+  opacity: 50%;
   font-weight: 600;
   font-size: 2.4rem;
   line-height: 3.2rem;
   display: flex;
   flex-direction: row;
   margin-left: 4.141rem;
+}
+
+.tabContents {
+  position: relative;
+  margin-top: 4.76rem;
+}
+
+.tabContents > div {
+  position: absolute;
+  top: 0;
+}
+
+.tabContents p {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 150%;
+
+  letter-spacing: 3.29004e-9px;
+  color: #ffffff;
+
+  width: 45rem;
+}
+
+.taptapText {
+  opacity: 1;
+}
+
+.tdsText {
+  opacity: 0;
 }
