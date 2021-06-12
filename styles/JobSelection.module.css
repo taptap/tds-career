@@ -1,11 +1,63 @@
-.jobSelection a {
+.jobsSection {
+  background: #eff1f2;
+  width: 100%;
+}
+.contents {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 10.4rem 4.8rem;
+}
+
+.contents h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 117%;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+.contents a {
   color: #15c5ce;
 }
 
-.jobSelection p {
+.contents p {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.8rem;
   text-align: center;
   color: #52575d;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.selection select {
+  width: 95.2rem;
+  height: 5.6rem;
+
+  background: #ffffff;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 140%;
+  color: #000000;
+  padding-left: 2.4rem;
+  margin-right: 4.8rem;
+}
+
+.selection a {
+  width: 18.4rem;
+  height: 5.6rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding: 1.5rem;
+  background: #15c5ce;
+  border-radius: 5.6rem;
 }

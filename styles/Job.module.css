@@ -1,0 +1,30 @@
+.job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 28.4rem;
+}
+
+.job > div {
+  width: 58rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 157%;
+
+  color: #52575d;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 2.4rem;
+}
+
+.job h2 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  color: #000000;
+}
+
+.job ul {
+  padding-inline-start: 2.4rem;
+}
