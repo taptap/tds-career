@@ -15,8 +15,8 @@ export default function Environment() {
       <div className={styles.text}>
         <h1>富有创造力的工作环境</h1>
         <h2>
-          上海办公室 位于静安区大宁中心广场 北京办公室 位于朝阳区核心商圈，临近
-          6 号线、17 号线
+          上海办公室：静安区大宁中心广场（1 号线） | 北京办公室：朝阳区东大桥（6
+          号线、17 号线）
         </h2>
       </div>
       <Fade
