@@ -21,6 +21,12 @@ export default function Products() {
       getElemByClass(styles.tdsBackground).style.opacity = progress;
       getElemByClass(styles.taptapUI).style.opacity = 1 - progress;
       getElemByClass(styles.sausagemanContainer).style.opacity = progress;
+
+      // Slider animation
+      const startLeft = 2.27;
+      const endOffset = 18.73;
+      const newLeft = startLeft + endOffset * progress;
+      getElemByClass(styles.slider).style.left = `${newLeft}rem`;
     };
     document.addEventListener("scroll", handleScroll);
     return () => {
@@ -60,6 +66,7 @@ export default function Products() {
                 />
                 <div>开发者服务</div>
               </div>
+              <div className={styles.slider} />
             </div>
             <div className={styles.tabContents}>
               <div className={styles.taptapText}>
