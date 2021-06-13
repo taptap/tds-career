@@ -7,7 +7,7 @@ const getElemByClass = (name) => {
 
 export default function Products() {
   useEffect(() => {
-    const animationStartY = Math.max(0, 720 - window.innerHeight / 3);
+    const animationStartY = Math.max(0, 720 - window.innerHeight / 2.5);
     const animationEndY = Math.max(100, 720 - window.innerHeight / 6);
     const handleScroll = () => {
       let progress =

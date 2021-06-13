@@ -4,9 +4,9 @@
 }
 
 .slide-container .react-slideshow-container + ul.indicators {
-  margin-top: 0;
-  position: relative;
-  bottom: 5.8rem;
+  width: 100%;
+  position: absolute;
+  bottom: 4.8rem;
   z-index: 100;
 }
 
