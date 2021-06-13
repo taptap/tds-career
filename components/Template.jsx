@@ -4,6 +4,7 @@ import Introduction from "./Introduction";
 import Hero from "./Hero";
 import Products from "./Products";
 import Environment from "./Environment";
+import Benefits from "./Benefits";
 
 export default function Template({ children }) {
   return (
@@ -19,6 +20,7 @@ export default function Template({ children }) {
         <Products />
         {children}
         <Environment />
+        <Benefits />
       </main>
 
       <footer className={styles.footer}>
