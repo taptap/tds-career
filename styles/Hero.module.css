@@ -2,23 +2,24 @@
   width: 100%;
   color: #ffffff;
   background: #15c5ce;
+  height: 72rem;
 }
 
 .contents {
   max-width: 128rem;
-  height: 72rem;
+  height: 48.7rem;
   position: relative;
   margin: 0 auto;
 }
 
 .topNav {
+  height: 5.6rem;
+  padding: 1.6rem;
   display: flex;
   flex-flow: row;
-  margin-left: 1.2rem;
-  margin-top: 1.672rem;
   font-weight: 500;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 .topNavLogo {
   width: 8rem;
@@ -47,7 +48,7 @@
   font-size: 7.2rem;
   font-weight: 600;
   line-height: 8rem;
-  margin-top: 23.3rem;
+  margin-top: 17.7rem;
   margin-left: 2.4rem;
 }
 
