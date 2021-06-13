@@ -1,0 +1,48 @@
+.footer {
+  padding: 4.8rem;
+  background: #1d2127;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerLeft {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 133%;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.footerLeft img {
+  width: 6.4rem;
+  height: 2.4rem;
+}
+
+.divider {
+  width: 0.1rem;
+  height: 0.8rem;
+  margin: 0.8rem 3.2rem;
+  opacity: 0.5;
+  display: inline-block;
+  border: 1px solid #5f5f6c;
+}
+
+.footerLeft a {
+  display: flex;
+}
+
+.footerLeft a span {
+  margin-left: 0.3rem;
+}
+
+.footerRight {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.45);
+  padding: 0.5rem 0;
+}

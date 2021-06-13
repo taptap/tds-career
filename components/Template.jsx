@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Products from "./Products";
 import Environment from "./Environment";
 import Benefits from "./Benefits";
+import Footer from "./Footer";
 
 export default function Template({ children }) {
   return (
@@ -21,17 +22,8 @@ export default function Template({ children }) {
         {children}
         <Environment />
         <Benefits />
+        <Footer />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://developer.taptap.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TapTap 开发者服务
-        </a>
-      </footer>
     </div>
   );
 }
