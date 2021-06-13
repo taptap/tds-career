@@ -14,10 +14,8 @@ export default function Products() {
         (window.scrollY - animationStartY) / (animationEndY - animationStartY);
       progress = progress < 0 ? 0 : progress;
       progress = progress > 1 ? 1 : progress;
-      const taptapTab = document.getElementsByClassName(styles.taptapTab)[0];
-      const tdsTab = document.getElementsByClassName(styles.tdsTab)[0];
-      taptapTab.style.opacity = 1 - progress / 2;
-      tdsTab.style.opacity = 0.5 + progress / 2;
+      getElemByClass(styles.taptapTab).style.opacity = 1 - progress / 2;
+      getElemByClass(styles.tdsTab).style.opacity = 0.5 + progress / 2;
       getElemByClass(styles.taptapText).style.opacity = 1 - progress;
       getElemByClass(styles.tdsText).style.opacity = progress;
       getElemByClass(styles.tdsBackground).style.opacity = progress;

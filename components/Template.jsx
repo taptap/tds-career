@@ -3,6 +3,7 @@ import Head from "next/head";
 import Introduction from "./Introduction";
 import Hero from "./Hero";
 import Products from "./Products";
+import Environment from "./Environment";
 
 export default function Template({ children }) {
   return (
@@ -17,6 +18,7 @@ export default function Template({ children }) {
         <Hero />
         <Products />
         {children}
+        <Environment />
       </main>
 
       <footer className={styles.footer}>
