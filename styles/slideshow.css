@@ -1,5 +1,6 @@
 .slide-container {
   width: 100%;
+  position: relative;
 }
 
 .slide-container .react-slideshow-container + ul.indicators {
