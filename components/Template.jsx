@@ -19,6 +19,7 @@ export default function Template({ children }) {
       <main className={styles.main}>
         <Hero />
         <Products />
+        <a id="action"></a>
         {children}
         <Environment />
         <Benefits />

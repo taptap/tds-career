@@ -1,5 +1,12 @@
 import styles from "../styles/Hero.module.css";
 
+function actionClicked(e) {
+  e.preventDefault();
+  document.querySelector(e.target.getAttribute("href")).scrollIntoView({
+    behavior: "smooth",
+  });
+}
+
 export default function Hero() {
   return (
     <div className={styles.heroSection}>
@@ -27,7 +34,9 @@ export default function Hero() {
         <div className={styles.subtitle}>
           TapTap 开发者服务致力于为游戏开发者提供一流的工具、平台和服务
         </div>
-        <div className={styles.joinButton}>加入我们</div>
+        <a href="#action" onClick={actionClicked} className={styles.joinButton}>
+          加入我们
+        </a>
         <img className={styles.tarara} alt="Tarara" src="/images/tarara.png" />
       </div>
     </div>

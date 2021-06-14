@@ -68,6 +68,7 @@
 }
 
 .joinButton {
+  display: block;
   background: #ffffff;
   color: #222222;
   text-align: center;
