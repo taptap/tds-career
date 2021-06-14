@@ -7,8 +7,9 @@ const getElemByClass = (name) => {
 
 export default function Products() {
   useEffect(() => {
-    const animationStartY = Math.max(0, 720 - window.innerHeight / 2.5);
-    const animationEndY = Math.max(100, 720 - window.innerHeight / 6);
+    const top = getElemByClass(styles.productsSection).offsetTop;
+    const animationStartY = Math.max(0, top - window.innerHeight / 2.5);
+    const animationEndY = Math.max(100, top - window.innerHeight / 6);
     const handleScroll = () => {
       let progress =
         (window.scrollY - animationStartY) / (animationEndY - animationStartY);
