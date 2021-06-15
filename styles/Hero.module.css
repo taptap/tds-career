@@ -82,3 +82,18 @@
   padding: 1.5rem 0;
   border-radius: 5.6rem;
 }
+
+@media only screen and (max-width: 1280px) and (min-width 768px) {
+  .heroSection {
+    height: 58rem;
+  }
+
+  .content {
+    max-width: 76.8rem;
+  }
+
+  .tarara {
+    width: 43.5rem;
+    height: 54.375rem;
+  }
+}
