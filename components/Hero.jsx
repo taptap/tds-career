@@ -37,7 +37,7 @@ export default function Hero() {
         <a href="#action" onClick={actionClicked} className={styles.joinButton}>
           加入我们
         </a>
-        <img className={styles.tarara} alt="Tarara" src="/images/tarara.png" />
+        <div className={styles.tarara} />
       </div>
     </div>
   );

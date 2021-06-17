@@ -18,7 +18,7 @@
   display: flex;
   flex-flow: row;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 2.4rem;
 }
 .topNavLogo {
@@ -42,6 +42,8 @@
   position: absolute;
   bottom: 0;
   right: 5rem;
+  background-image: url("/images/tarara.png");
+  background-size: cover;
 }
 
 .title {
@@ -122,5 +124,63 @@
     font-size: 1.6rem;
     line-height: 150%;
     padding: 0.6rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    height: 58rem;
+  }
+
+  .topNav {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .contents {
+    width: 32rem;
+    height: 46.5rem;
+  }
+
+  .tarara {
+    width: 27.8rem;
+    height: 30.1rem;
+    background-image: url("/images/tarara-crop.png");
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 129%;
+    margin-top: 5.9rem;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taptapInline {
+    width: 9.585rem;
+    height: 3.6rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+    line-height: 112%;
+    width: 29.2rem;
+    margin-top: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .joinButton {
+    height: 3.6rem;
+    width: 12.4rem;
+    font-size: 1.6rem;
+    line-height: 150%;
+    padding: 0.6rem 0;
+    text-align: center;
+    margin-top: 2.4rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
