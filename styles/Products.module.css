@@ -54,10 +54,10 @@
 
 .sausagemanContainer {
   background: #ffffff;
-  border-radius: 24.6695px;
+  border-radius: 2.467rem;
   height: 24.628rem;
   width: 51.6rem;
-  padding: 0.74rem;
+  padding: 0.73rem;
   margin-right: 7.6rem;
 }
 
@@ -134,4 +134,44 @@
 
 .tdsText {
   opacity: 0;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+  .productsSection {
+    height: 42rem;
+  }
+
+  .productsSection h1 {
+    margin-top: 4.8rem;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+
+  .contents {
+    width: 76.8rem;
+  }
+
+  .taptapUI {
+    width: 30.6rem;
+    height: 26.6rem;
+    bottom: -8.476rem;
+  }
+
+  .lowerContainerTDS {
+    margin-top: 8.887rem;
+    padding-left: 3.4rem;
+  }
+
+  .sausagemanContainer {
+    height: 16.162rem;
+    width: 33.862rem;
+    border-radius: 1.619rem;
+    padding: 0.49rem;
+  }
+
+  .sausagemanContainer img {
+    width: 32.864rem;
+    height: 15.178rem;
+    border-radius: 1.29515rem;
+  }
 }
