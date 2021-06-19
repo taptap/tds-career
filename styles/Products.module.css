@@ -174,4 +174,25 @@
     height: 15.178rem;
     border-radius: 1.29515rem;
   }
+
+  .taptapLogo {
+    width: 5.333rem;
+    height: 2rem;
+  }
+
+  .tdsTab {
+    font-size: 1.4rem;
+    line-height: 143%;
+  }
+
+  .slider {
+    top: 2.656rem;
+    left: 1.367rem;
+  }
+
+  .tabContents {
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 2.15rem;
+  }
 }
