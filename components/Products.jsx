@@ -24,10 +24,11 @@ export default function Products() {
       getElemByClass(styles.sausagemanContainer).style.opacity = progress;
 
       // Slider animation
-      const startLeft = 2.27;
-      const endOffset = 18.73;
-      const newLeft = startLeft + endOffset * progress;
-      getElemByClass(styles.slider).style.left = `${newLeft}rem`;
+      const endOffset =
+        getElemByClass(styles.rail).clientWidth -
+        getElemByClass(styles.slider).offsetWidth;
+      const newLeft = endOffset * progress;
+      getElemByClass(styles.slider).style.marginLeft = `${newLeft}px`;
     };
     document.addEventListener("scroll", handleScroll);
     return () => {
@@ -67,7 +68,9 @@ export default function Products() {
                 />
                 <div>开发者服务</div>
               </div>
-              <div className={styles.slider} />
+              <div className={styles.rail}>
+                <div className={styles.slider} />
+              </div>
             </div>
             <div className={styles.tabContents}>
               <div className={styles.taptapText}>

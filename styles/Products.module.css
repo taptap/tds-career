@@ -78,14 +78,18 @@
   position: relative;
 }
 
+.rail {
+  position: absolute;
+  top: 4.2rem;
+  left: 2.27rem;
+  width: 22.73rem;
+}
+
 .slider {
   background: #ffffff;
   border-radius: 10rem;
   width: 4rem;
   height: 0.4rem;
-  position: absolute;
-  top: 4.2rem;
-  left: 2.27rem;
 }
 
 .taptapLogo {
@@ -185,9 +189,16 @@
     line-height: 143%;
   }
 
-  .slider {
+  .rail {
+    position: absolute;
     top: 2.656rem;
     left: 1.367rem;
+    width: 14.189rem;
+  }
+
+  .slider {
+    width: 2.6rem;
+    height: 0.3rem;
   }
 
   .tabContents {
