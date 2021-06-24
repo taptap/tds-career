@@ -92,6 +92,23 @@
   height: 0.4rem;
 }
 
+.learnMore {
+  position: absolute;
+  top: 16.76rem;
+  width: 10.4rem;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 5.6rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 171%;
+  color: #232525;
+  display: block;
+  text-align: center;
+  padding: 0.8rem 2.4rem;
+  z-axis: 100;
+}
+
 .taptapLogo {
   width: 8.533rem;
   height: 3.2rem;
