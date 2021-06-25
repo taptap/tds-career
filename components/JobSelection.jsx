@@ -17,7 +17,7 @@ export default function JobSelection({ job, allJobs }) {
         <h1>探索你感兴趣的职位</h1>
         <p>
           目前我们在招聘以下这些职位，如果其中有适合你的，可提交申请至{" "}
-          <a href="https://jobs.leanapp.cn">jobs.leanapp.cn</a>。
+          <a href="mailto:tds-jobs@taptap.com">tds-jobs@taptap.com</a>。
         </p>
         <div className={styles.selection}>
           <select onChange={change} value={job.slug}>

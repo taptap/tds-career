@@ -142,10 +142,7 @@
   font-weight: normal;
   font-size: 1.6rem;
   line-height: 150%;
-
-  letter-spacing: 3.29004e-9px;
   color: #ffffff;
-
   width: 45rem;
 }
 
@@ -219,8 +216,12 @@
   }
 
   .tabContents {
+    margin-top: 2.15rem;
+  }
+
+  .tabContents p {
     font-size: 12px;
     line-height: 150%;
-    margin-top: 2.15rem;
+    width: 34rem;
   }
 }
