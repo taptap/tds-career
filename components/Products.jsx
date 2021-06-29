@@ -71,12 +71,6 @@ export default function Products() {
               <div className={styles.rail}>
                 <div className={styles.slider} />
               </div>
-              <a
-                href="https://developer.taptap.com"
-                className={styles.learnMore}
-              >
-                了解更多
-              </a>
             </div>
             <div className={styles.tabContents}>
               <div className={styles.taptapText}>
@@ -92,6 +86,9 @@ export default function Products() {
                 </p>
               </div>
             </div>
+            <a href="https://developer.taptap.com" className={styles.learnMore}>
+              了解更多
+            </a>
           </div>
         </div>
       </div>

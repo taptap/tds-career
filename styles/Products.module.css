@@ -36,6 +36,7 @@
 
 .productsSection h1 {
   margin-top: 10.4rem;
+  margin-bottom: 0;
   text-align: center;
   color: #ffffff;
   font-weight: 600;
@@ -93,8 +94,6 @@
 }
 
 .learnMore {
-  position: absolute;
-  top: 16.76rem;
   width: 10.4rem;
   height: 4rem;
   background: #ffffff;
@@ -105,8 +104,8 @@
   color: #232525;
   display: block;
   text-align: center;
-  padding: 0.8rem 2.4rem;
-  z-axis: 100;
+  padding: 0.8rem 0;
+  margin-top: 8.8rem;
 }
 
 .taptapLogo {
@@ -130,7 +129,7 @@
 
 .tabContents {
   position: relative;
-  margin-top: 4.76rem;
+  margin-top: 4.6rem;
 }
 
 .tabContents > div {
@@ -154,7 +153,7 @@
   opacity: 0;
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .productsSection {
     height: 42rem;
   }
@@ -163,6 +162,7 @@
     margin-top: 4.8rem;
     font-size: 2.8rem;
     line-height: 3.6rem;
+    height: 3.675rem;
   }
 
   .contents {
@@ -193,6 +193,10 @@
     border-radius: 1.29515rem;
   }
 
+  .tabs {
+    height: 2rem;
+  }
+
   .taptapLogo {
     width: 5.333rem;
     height: 2rem;
@@ -216,12 +220,40 @@
   }
 
   .tabContents {
-    margin-top: 2.15rem;
+    margin-top: 3.106rem;
+  }
+
+  .learnMore {
+    margin-top: 5.825rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    width: 8rem;
+    height: 2.6rem;
+    padding: 0.4rem 0;
   }
 
   .tabContents p {
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 150%;
     width: 34rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .productSection {
+    height: 52rem;
+  }
+
+  .contents {
+    width: 32rem;
+  }
+
+  .lowerContainerTDS {
+    flex-direction: column-reverse;
+    margin-top: 4.8rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    padding: 0;
   }
 }
