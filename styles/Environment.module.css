@@ -30,3 +30,19 @@
   margin: 0;
   margin-top: 0.8rem;
 }
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+  .text {
+    top: 4.8rem;
+  }
+
+  .text h1 {
+    font-size: 2.8rem;
+    line-height: 129%;
+  }
+
+  .text h2 {
+    font-size: 1.4rem;
+    line-height: 157%;
+  }
+}
