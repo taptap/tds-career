@@ -12,7 +12,7 @@ export default function Benefits() {
               <span>弹性上下班时间</span>
               <span>平等讨论、效率优先</span>
               <span>高效开放的办公环境</span>
-              <span>信息在内部高度透明，给工作充分的上下文</span>
+              <span>信息在内部高度透明，有充分的上下文</span>
               <span>为负责的工作做专业决策</span>
             </div>
           </div>
