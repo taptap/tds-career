@@ -62,7 +62,7 @@
   border-radius: 5.6rem;
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .contents {
     width: 76.8rem;
     padding: 4.8rem 2.4rem;
@@ -87,6 +87,8 @@
     width: 56rem;
     height: 3.6rem;
     margin-right: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 157%;
   }
 
   .selection a {
@@ -96,5 +98,32 @@
     font-size: 1.6rem;
     line-height: 150%;
     padding: 0.6rem 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .contents {
+    width: 32rem;
+    padding: 4.8rem 1.2rem;
+  }
+
+  .contents p {
+    text-align: center;
+  }
+
+  .selection {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .selection select {
+    width: 29.6rem;
+    height: 3.6rem;
+    margin-right: 0;
+  }
+
+  .selection a {
+    margin-top: 2.4rem;
   }
 }

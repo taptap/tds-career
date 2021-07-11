@@ -29,7 +29,7 @@
   padding-inline-start: 2.4rem;
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .job > div {
     width: 35.6rem;
     padding: 1.2rem;
@@ -40,5 +40,19 @@
   .job h2 {
     font-size: 1.4rem;
     line-height: 143%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .job {
+    flex-direction: column;
+  }
+
+  .job > div {
+    width: 100%;
+  }
+
+  .job > div:first-child {
+    margin-bottom: 0.8rem;
   }
 }
