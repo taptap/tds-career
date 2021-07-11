@@ -46,3 +46,23 @@
     line-height: 157%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .text {
+    top: 4.8rem;
+  }
+
+  .text h1 {
+    font-size: 2.8rem;
+    line-height: 129%;
+  }
+
+  .text h2 {
+    font-size: 1.4rem;
+    line-height: 157%;
+    margin: 0.8rem 1.2rem;
+  }
+  .image {
+    height: 48rem;
+  }
+}
