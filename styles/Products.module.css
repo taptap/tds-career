@@ -241,7 +241,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .productSection {
+  .productsSection {
     height: 52rem;
   }
 
@@ -249,11 +249,53 @@
     width: 32rem;
   }
 
+  .tabs {
+    justify-content: center;
+  }
+
   .lowerContainerTDS {
     flex-direction: column-reverse;
-    margin-top: 4.8rem;
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
+    overflow: hidden;
+    align-items: center;
+    height: 43.6rem;
+    justify-content: flex-end;
+  }
+
+  .tdsImage {
+    width: 306.69px;
+    height: 141.63px;
+  }
+
+  .productsText {
+    width: 100%;
+    align-items: center;
+    margin-top: 4.8rem;
+  }
+
+  .tabContents {
+    width: 100%;
+  }
+
+  .tabContents p {
+    width: 100%;
+    padding: 0 2.4rem;
+  }
+
+  .sausagemanContainer {
+    margin-top: 3.995rem;
+  }
+
+  .taptapUI {
+    bottom: 0;
+    width: 25.6rem;
+    height: 21.3rem;
+  }
+
+  .learnMore {
+    margin-top: 7rem;
   }
 }
