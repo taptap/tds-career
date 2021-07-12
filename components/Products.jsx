@@ -38,6 +38,7 @@ export default function Products() {
 
   return (
     <div className={styles.productsSection}>
+      <div className={styles.tapBackground}></div>
       <div className={styles.tdsBackground}></div>
       <div className={styles.contents}>
         <h1>快速发展的产品服务</h1>
