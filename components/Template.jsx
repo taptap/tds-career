@@ -1,6 +1,5 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-import Introduction from "./Introduction";
 import Hero from "./Hero";
 import Products from "./Products";
 import Environment from "./Environment";
