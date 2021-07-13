@@ -12,7 +12,10 @@ export default function Template({ children }) {
       <Head>
         <title>成为 TDS 的一员</title>
         <meta name="description" content="TapTap 的工作机会" />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="//assets.tapimg.com/developer-center-v2/favicon.ico"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
