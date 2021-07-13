@@ -19,10 +19,12 @@ export default function Products() {
     const top = getElemByClass(styles.productsSection).offsetTop;
     const animationStartY = Math.max(0, top - window.innerHeight / 4);
     const animationEndY = Math.max(100, top - window.innerHeight / 6);
-    setMaxSliderOffset(
-      getElemByClass(styles.rail).clientWidth -
-        getElemByClass(styles.slider).offsetWidth
-    );
+    const updateMaxSliderOffset = () => {
+      setMaxSliderOffset(
+        getElemByClass(styles.rail).clientWidth -
+          getElemByClass(styles.slider).offsetWidth * 0.5
+      );
+    };
     const handleScroll = () => {
       // Calculated progress
       let cp =
@@ -31,9 +33,12 @@ export default function Products() {
       cp = cp > 1 ? 1 : cp;
       setProgress(cp);
     };
+    updateMaxSliderOffset();
     document.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", updateMaxSliderOffset);
     return () => {
       document.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", updateMaxSliderOffset);
     };
   }, []);
 
