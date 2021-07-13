@@ -137,7 +137,7 @@
   top: 0;
 }
 
-.tabContents p {
+.contents .tabContents p {
   font-weight: normal;
   font-size: 1.6rem;
   line-height: 150%;
