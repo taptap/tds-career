@@ -22,7 +22,7 @@ export default function Products() {
     const updateMaxSliderOffset = () => {
       setMaxSliderOffset(
         getElemByClass(styles.rail).clientWidth -
-          getElemByClass(styles.slider).offsetWidth * 0.5
+          getElemByClass(styles.slider).offsetWidth
       );
     };
     const handleScroll = () => {
