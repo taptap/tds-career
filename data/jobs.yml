@@ -2,7 +2,7 @@
   slug: backend-engineer
   requirements:
     - 熟悉常用数据结构及算法，理解时间复杂度等基本概念。
-    - 我们后端开发使用的语言主要包括 Clojure, Java, Go, Rust, Python, Node，需要精通其中一种或几种，并有快速学习新知识的能力和动力。
+    - 我们后端开发使用的语言主要包括 Clojure, Java, Go, Rust, Python, JavaScript/TypeScript(Node.js)，需要精通其中一种或几种，并有快速学习新知识的能力和动力。
     - 了解 Web 后端涉及的相关网络协议（HTTP 等）
     - 有开发复杂后端系统的经验，熟悉各类开源队列、数据库、工具。
     - 有优秀的学习、沟通、协作能力
