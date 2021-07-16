@@ -31,6 +31,7 @@ export default function Template({ children }) {
           name="og:image"
           content="https://career.taptap.dev/images/card.png"
         />
+        <meta name="og:url" content="https://career.taptap.dev" />
         <link
           rel="icon"
           href="//assets.tapimg.com/developer-center-v2/favicon.ico"
