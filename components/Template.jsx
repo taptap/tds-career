@@ -9,6 +9,10 @@ import Footer from "./Footer";
 export default function Template({ children }) {
   return (
     <div className={styles.container}>
+      <img
+        style={{ display: "none" }}
+        src="https://career.taptap.dev/images/wechat.png"
+      />
       <Head>
         <title>加入 TapTap Developer Services 团队</title>
         <meta name="description" content="TDS 多个职位火热招聘中" />
