@@ -29,6 +29,10 @@
   padding-inline-start: 2.4rem;
 }
 
+.job li {
+  margin: 0.5em 0;
+}
+
 @media only screen and (max-width: 1280px) {
   .job > div {
     width: 35.6rem;
