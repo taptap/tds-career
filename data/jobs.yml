@@ -13,39 +13,6 @@
     - 参与新产品后端系统的开发
     - 与运维同事协作改进后端系统监控及响应线上事故
 
-- title: iOS 平台工程师
-  slug: ios-engineer
-  requirements:
-    - 技术基础扎实，熟悉常用数据结构与算法
-    - 精通 Swift、Objective-C 语言和 iOS 平台 API
-    - 深入了解 iOS 系统的进程管理、推送通知、网络管理等各项机制
-    - 熟悉 TCP/IP、HTTP 等常用网络协议
-    - 有优秀的学习、沟通、协作能力
-    - 具备良好的自我管理能力和工作习惯，在无需监督的情况下能保持高水平的工作效率
-    - 工作地点：上海/北京
-  responsibilities:
-    - 负责 iOS SDK 的开发和维护
-    - 为使用 iOS SDK 的用户提供支持
-    - 参与 iOS 平台上新产品的开发
-    - 参与相关的产品决策
-
-- title: Android 平台工程师
-  slug: android-engineer
-  requirements:
-    - 技术基础扎实，熟悉常用数据结构与算法
-    - 精通 Java 语言和 Android 平台 API
-    - 深入了解 Android 系统的进程管理、推送通知、网络管理等各项机制
-    - 熟悉 TCP/IP、HTTP 等常用网络协议
-    - 熟悉 C 语言和 Linux 系统 API
-    - 有优秀的学习、沟通、协作能力
-    - 具备良好的自我管理能力和工作习惯，在无需监督的情况下能保持高水平的工作效率
-    - 工作地点：上海/北京
-  responsibilities:
-    - 负责 Android SDK 的开发和维护
-    - 为使用 Android SDK 的用户提供支持
-    - 参与 Android 平台上新产品的开发
-    - 参与相关的产品决策
-
 - title: Unity 平台工程师
   slug: unity-engineer
   requirements:
@@ -59,20 +26,18 @@
     - 负责 Unity SDK 的开发和维护
     - 参与相关的产品决策
 
-- title: Web 前端工程师
-  slug: frontend-engineer
+- title: Unreal Engine 工程师
+  slug: unreal-engineer
   requirements:
-    - 技术基础扎实，精通现代 JavaScript，熟悉常用数据结构与算法
-    - 熟悉前端常用的框架、工具以及流程，有线上产品开发的经验
+    - 技术基础扎实，熟悉常用数据结构与算法
+    - 精通 C++ 语言和 Unreal 游戏引擎
+    - 熟悉常用网络协议栈（UDP、TCP/IP、HTTP）并有相关开发经验
+    - 有优秀的学习、沟通、协作能力
+    - 具备良好的自我管理能力和工作习惯，在无需监督的情况下能保持高水平的工作效率
     - 工作地点：上海/北京
-  bonuses:
-    - 有后端开发经验
-    - 有浏览器之外其他客户端平台的开发经验（小程序/React Native/Android/iOS/游戏框架等）
-    - 是活跃的开源社区贡献者
   responsibilities:
-    - 负责产品接入与使用体验的改善
-    - 参与 JavaScript SDK 的开发、维护与技术支持
-    - 参与主站、控制台与技术支持等系统的开发和维护
+    - 负责 Unreal Engine SDK 的开发和维护
+    - 参与相关的产品决策
 
 - title: 系统运维工程师
   slug: ops-engineer
@@ -90,35 +55,3 @@
     - 响应线上事故，参与 on-call 值班
     - 改进运维、监控体系，提高自动化程度
     - 改进业务和基础设施的可控性，包括可用性、安全性、成本和可维护性
-
-- title: 技术支持专家
-  slug: tech-support
-  requirements:
-    - 有良好的程序设计功底和经验
-    - 熟练掌握至少一种程序设计语言
-    - 性格和善，能与不同类型的人耐心交流
-    - 有优秀的书面和口头沟通能力
-    - 有优秀的学习、总结、协作能力
-    - 工作地点：上海/北京
-  bonuses:
-    - 有移动开发的经验
-  responsibilities:
-    - 为客户提供咨询和技术支持
-    - 与工程师一起改进技术支持系统
-    - 协助改进文档和 demo，为研发团队提供有效的用户反馈
-    - 成为用户与产品团队之间的桥梁，及时归纳整理能指导产品和服务改进的信息
-
-- title: 产品经理
-  slug: product-manager
-  requirements:
-    - 有三年以上产品设计经验
-    - 能熟练使用多种产品经理常用工具，包括但不限于 Axure、Figma、Visio、Xmind、SQL 等
-    - 善于跨部门、跨业务线沟通
-    - 有高度的责任心和团队合作精神
-  bonuses:
-    - 同时具备 C 端和 B 端产品经验
-    - 有游戏行业相关经验
-    - 手机游戏爱好者
-  responsibilities:
-    - 面向开发者和 C 端用户的产品规划、产品设计、目标制定、拆解实施
-    - 根据用户反馈和数据分析对产品进行持续改进和功能迭代
