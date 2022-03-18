@@ -17,7 +17,8 @@
   slug: unity-engineer
   requirements:
     - 技术基础扎实，熟悉常用数据结构与算法
-    - 精通 C# 语言和 Unity 游戏引擎
+    - 熟悉 C# 语言和 Unity 游戏引擎
+    - 有使用 Unity 开发 iOS 或 Android 游戏的经验
     - 熟悉常用网络协议栈（UDP、TCP/IP、HTTP）并有相关开发经验
     - 有优秀的学习、沟通、协作能力
     - 具备良好的自我管理能力和工作习惯，在无需监督的情况下能保持高水平的工作效率
@@ -30,7 +31,8 @@
   slug: unreal-engineer
   requirements:
     - 技术基础扎实，熟悉常用数据结构与算法
-    - 精通 C++ 语言和 Unreal 游戏引擎
+    - 熟悉 C++ 语言和 Unreal 游戏引擎
+    - 有使用 Unreal 开发 iOS 或 Android 游戏的经验
     - 熟悉常用网络协议栈（UDP、TCP/IP、HTTP）并有相关开发经验
     - 有优秀的学习、沟通、协作能力
     - 具备良好的自我管理能力和工作习惯，在无需监督的情况下能保持高水平的工作效率
